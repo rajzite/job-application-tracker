@@ -1,0 +1,6 @@
+2026-03-24 20:16:08.893306+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (id, name) VALUES (1, 'John') [42104-232]
+2026-03-24 20:16:29.812119+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO Users(id, name) VALUES (1, 'John') [42104-232]
